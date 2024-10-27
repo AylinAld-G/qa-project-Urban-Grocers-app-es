@@ -20,6 +20,8 @@ def positive_assert(name):
 
     #Comprobar si el código de estado es 201
     assert kit_response.status_code==201
+    # Comprobar que el campo 'name' de la respuesta sea el mismo valor utilizado en la prueba.
+    assert kit_response.json()["name"] == name
 
 ## Función de prueba negativa para los casos en los que la solicitud devuelve un error con código 400
 def negative_assert_code_400(name):
