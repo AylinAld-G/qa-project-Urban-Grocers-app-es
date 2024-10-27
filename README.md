@@ -20,6 +20,6 @@ Y por último el archivo que contiene las funciones para evaluar las solicitudes
 ### Pruebas
 1. En el archivo _configuration.py_ se encuentran las rutas para enviar las solicitudes. 
 Para iniciar, es necesario cambiar la ruta _URL_SERVICE_ con la dirección actualizada del servidor.
-2. Ejecutar el archivo _sender_stand_request.py_ para crear un usuario y obtener el token de autenticación (authToken).
-3. Ir al archivo _create_kit_name_kit_test.py_ y cambiar la configuración de ejecución a Pytest. Una vez configurado, correr el código y esperar a que las pruebas terminen de ejecutarse. 
+2. En la terminal ejecutar _python sender_stand_request.py_ para crear un usuario y obtener el token de autenticación (authToken).
+3. Ir al archivo _create_kit_name_kit_test.py_ y cambiar la configuración de ejecución a Pytest. Una vez configurado, ingresar _pytest create_kit_name_kit_test.py_  y esperar a que las pruebas terminen de ejecutarse.  
 
